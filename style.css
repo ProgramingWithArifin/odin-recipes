@@ -1,3 +1,4 @@
+/* global reset */
 *{
     margin: 0;
     padding: 0;
@@ -14,6 +15,7 @@
 body{
     background-color:var(--bodybg);
 }
+/* This is the nav bar area */
 h1{
     background-color: var(--h1bg);
     padding: 20px;
@@ -23,6 +25,7 @@ h1{
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.39);
     font-size: 2.3rem;
 }
+/* link section box  */
 ul{
     margin: auto;
     margin-top: 40px;
@@ -40,6 +43,7 @@ ul li a{
     font-weight: 600;
     text-align: center;
 }
+/* fix border releated issue */
 li:first-child>a{
     border: none;
     border-radius: 17px 17px 0px 0px;
@@ -47,6 +51,7 @@ li:first-child>a{
 li:last-child>a{
     border-radius:0px 0px 15px 15px;
 }
+/* not so important things */
 li a:hover{
     background-color: #b99470d7;
     transition: 600ms;
